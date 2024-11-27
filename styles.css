@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-app h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#country-input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#get-weather-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2193b0;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+#get-weather-btn:hover {
+  background-color: #6dd5ed;
+}
+
+#weather-result {
+  margin-top: 30px;
+  color: #fff;
+  opacity: 0; /* Start hidden for animation */
+}
+
+#weather-result h2 {
+  margin-bottom: 15px;
+}
+
+.weather-icon {
+  width: 100px;
+}
